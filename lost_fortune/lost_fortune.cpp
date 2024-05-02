@@ -45,3 +45,26 @@ int main()
 
 	return 0;
 }
+
+// Exercises
+// 1.1 - Good names
+// 1.2 - Bad names
+// 2.0 - What is the result?
+// cout << "Seven divided by three is " << 7 / 3 << endl; ======== Prints 2, both are integers so the decimals are omitted doing an integer operation.
+// cout << "Seven divided by three is " << 7.0 / 3 << endl; ====== Prints 2.333333, one of the numbers is a floating point, so a floating point operation is made
+// cout << "Seven divided by three is " << 7.0 / 3.0 << endl; ==== Same as previous, both are floating point, so no discard is made.
+// 3.0 - Average Score
+/*
+int main()
+{
+	float grade_a, grade_b, grade_c;
+	cout << "Write the first grade: \n";
+	cin >> grade_a;
+	cout << "Write the second grade: \n";
+	cin >> grade_b;
+	cout << "Write the third grade: \n";
+	cin >> grade_c;
+	cout << "The Average grade is: " << (grade_a + grade_b + grade_c) / 3 << "\n";
+	return 0;
+}
+*/
