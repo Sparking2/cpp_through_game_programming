@@ -19,7 +19,6 @@ int enumMenuChooser()
 	cout << "2 - Normal\n";
 	cout << "3 - Hard\n\n";
 
-
 	cout << "Choice: ";
 	cin >> choice;
 	switch (static_cast<difficulty>(choice))

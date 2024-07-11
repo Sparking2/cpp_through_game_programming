@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "counter", "counter\counter.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "string_tester", "string_tester\string_tester.vcxproj", "{65053484-B8DD-44E6-B7D4-A48F40678198}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "heros_inventory", "heros_inventory\heros_inventory.vcxproj", "{49D31EB0-6B1E-42B2-817E-4EF829233474}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -221,6 +223,14 @@ Global
 		{65053484-B8DD-44E6-B7D4-A48F40678198}.Release|x64.Build.0 = Release|x64
 		{65053484-B8DD-44E6-B7D4-A48F40678198}.Release|x86.ActiveCfg = Release|Win32
 		{65053484-B8DD-44E6-B7D4-A48F40678198}.Release|x86.Build.0 = Release|Win32
+		{49D31EB0-6B1E-42B2-817E-4EF829233474}.Debug|x64.ActiveCfg = Debug|x64
+		{49D31EB0-6B1E-42B2-817E-4EF829233474}.Debug|x64.Build.0 = Debug|x64
+		{49D31EB0-6B1E-42B2-817E-4EF829233474}.Debug|x86.ActiveCfg = Debug|Win32
+		{49D31EB0-6B1E-42B2-817E-4EF829233474}.Debug|x86.Build.0 = Debug|Win32
+		{49D31EB0-6B1E-42B2-817E-4EF829233474}.Release|x64.ActiveCfg = Release|x64
+		{49D31EB0-6B1E-42B2-817E-4EF829233474}.Release|x64.Build.0 = Release|x64
+		{49D31EB0-6B1E-42B2-817E-4EF829233474}.Release|x86.ActiveCfg = Release|Win32
+		{49D31EB0-6B1E-42B2-817E-4EF829233474}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
