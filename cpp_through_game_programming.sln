@@ -51,6 +51,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tic-tac-toe_board", "tic-ta
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "word_jumble", "word_jumble\word_jumble.vcxproj", "{DB180406-EF05-484D-9B5E-AA32F9C435CD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exercises_chapter_3", "exercises_chapter_3\exercises_chapter_3.vcxproj", "{407570B1-EF30-4A9B-98C2-3FFA0AAF5EE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -251,6 +253,14 @@ Global
 		{DB180406-EF05-484D-9B5E-AA32F9C435CD}.Release|x64.Build.0 = Release|x64
 		{DB180406-EF05-484D-9B5E-AA32F9C435CD}.Release|x86.ActiveCfg = Release|Win32
 		{DB180406-EF05-484D-9B5E-AA32F9C435CD}.Release|x86.Build.0 = Release|Win32
+		{407570B1-EF30-4A9B-98C2-3FFA0AAF5EE9}.Debug|x64.ActiveCfg = Debug|x64
+		{407570B1-EF30-4A9B-98C2-3FFA0AAF5EE9}.Debug|x64.Build.0 = Debug|x64
+		{407570B1-EF30-4A9B-98C2-3FFA0AAF5EE9}.Debug|x86.ActiveCfg = Debug|Win32
+		{407570B1-EF30-4A9B-98C2-3FFA0AAF5EE9}.Debug|x86.Build.0 = Debug|Win32
+		{407570B1-EF30-4A9B-98C2-3FFA0AAF5EE9}.Release|x64.ActiveCfg = Release|x64
+		{407570B1-EF30-4A9B-98C2-3FFA0AAF5EE9}.Release|x64.Build.0 = Release|x64
+		{407570B1-EF30-4A9B-98C2-3FFA0AAF5EE9}.Release|x86.ActiveCfg = Release|Win32
+		{407570B1-EF30-4A9B-98C2-3FFA0AAF5EE9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
