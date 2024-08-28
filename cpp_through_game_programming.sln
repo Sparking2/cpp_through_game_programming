@@ -59,6 +59,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "heros_inventory3", "heros_i
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "high_scores", "high_scores\high_scores.vcxproj", "{A90EE88E-795F-4498-AEFD-9B90F120CF76}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hangman", "hangman\hangman.vcxproj", "{C0C12396-4218-460F-9022-24E9C4ED68B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -291,6 +293,14 @@ Global
 		{A90EE88E-795F-4498-AEFD-9B90F120CF76}.Release|x64.Build.0 = Release|x64
 		{A90EE88E-795F-4498-AEFD-9B90F120CF76}.Release|x86.ActiveCfg = Release|Win32
 		{A90EE88E-795F-4498-AEFD-9B90F120CF76}.Release|x86.Build.0 = Release|Win32
+		{C0C12396-4218-460F-9022-24E9C4ED68B0}.Debug|x64.ActiveCfg = Debug|x64
+		{C0C12396-4218-460F-9022-24E9C4ED68B0}.Debug|x64.Build.0 = Debug|x64
+		{C0C12396-4218-460F-9022-24E9C4ED68B0}.Debug|x86.ActiveCfg = Debug|Win32
+		{C0C12396-4218-460F-9022-24E9C4ED68B0}.Debug|x86.Build.0 = Debug|Win32
+		{C0C12396-4218-460F-9022-24E9C4ED68B0}.Release|x64.ActiveCfg = Release|x64
+		{C0C12396-4218-460F-9022-24E9C4ED68B0}.Release|x64.Build.0 = Release|x64
+		{C0C12396-4218-460F-9022-24E9C4ED68B0}.Release|x86.ActiveCfg = Release|Win32
+		{C0C12396-4218-460F-9022-24E9C4ED68B0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
