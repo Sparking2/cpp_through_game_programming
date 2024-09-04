@@ -67,6 +67,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "instructions", "instruction
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "yes_or_no", "yes_or_no\yes_or_no.vcxproj", "{BA9F26F6-0D71-42AE-8F31-A01658724EC5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 5", "Chapter 5", "{5C98DF23-BAA7-46F5-B5A0-78697DBF9FF6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scoping", "scoping\scoping.vcxproj", "{D306A11E-991C-4209-B677-22C890194976}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -331,9 +335,20 @@ Global
 		{BA9F26F6-0D71-42AE-8F31-A01658724EC5}.Release|x64.Build.0 = Release|x64
 		{BA9F26F6-0D71-42AE-8F31-A01658724EC5}.Release|x86.ActiveCfg = Release|Win32
 		{BA9F26F6-0D71-42AE-8F31-A01658724EC5}.Release|x86.Build.0 = Release|Win32
+		{D306A11E-991C-4209-B677-22C890194976}.Debug|x64.ActiveCfg = Debug|x64
+		{D306A11E-991C-4209-B677-22C890194976}.Debug|x64.Build.0 = Debug|x64
+		{D306A11E-991C-4209-B677-22C890194976}.Debug|x86.ActiveCfg = Debug|Win32
+		{D306A11E-991C-4209-B677-22C890194976}.Debug|x86.Build.0 = Debug|Win32
+		{D306A11E-991C-4209-B677-22C890194976}.Release|x64.ActiveCfg = Release|x64
+		{D306A11E-991C-4209-B677-22C890194976}.Release|x64.Build.0 = Release|x64
+		{D306A11E-991C-4209-B677-22C890194976}.Release|x86.ActiveCfg = Release|Win32
+		{D306A11E-991C-4209-B677-22C890194976}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D306A11E-991C-4209-B677-22C890194976} = {5C98DF23-BAA7-46F5-B5A0-78697DBF9FF6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45049A7A-0E05-45A6-9D16-5A4160A48F80}
