@@ -73,6 +73,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scoping", "scoping\scoping.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "global_reach", "global_reach\global_reach.vcxproj", "{1EF66109-D0F7-4F1E-A093-7BF2B8A6B926}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "give_me_a_number", "give_me_a_number\give_me_a_number.vcxproj", "{7C4B1148-A1A1-4AF7-9F62-AC353800EB94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -353,6 +355,14 @@ Global
 		{1EF66109-D0F7-4F1E-A093-7BF2B8A6B926}.Release|x64.Build.0 = Release|x64
 		{1EF66109-D0F7-4F1E-A093-7BF2B8A6B926}.Release|x86.ActiveCfg = Release|Win32
 		{1EF66109-D0F7-4F1E-A093-7BF2B8A6B926}.Release|x86.Build.0 = Release|Win32
+		{7C4B1148-A1A1-4AF7-9F62-AC353800EB94}.Debug|x64.ActiveCfg = Debug|x64
+		{7C4B1148-A1A1-4AF7-9F62-AC353800EB94}.Debug|x64.Build.0 = Debug|x64
+		{7C4B1148-A1A1-4AF7-9F62-AC353800EB94}.Debug|x86.ActiveCfg = Debug|Win32
+		{7C4B1148-A1A1-4AF7-9F62-AC353800EB94}.Debug|x86.Build.0 = Debug|Win32
+		{7C4B1148-A1A1-4AF7-9F62-AC353800EB94}.Release|x64.ActiveCfg = Release|x64
+		{7C4B1148-A1A1-4AF7-9F62-AC353800EB94}.Release|x64.Build.0 = Release|x64
+		{7C4B1148-A1A1-4AF7-9F62-AC353800EB94}.Release|x86.ActiveCfg = Release|Win32
+		{7C4B1148-A1A1-4AF7-9F62-AC353800EB94}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -360,6 +370,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D306A11E-991C-4209-B677-22C890194976} = {5C98DF23-BAA7-46F5-B5A0-78697DBF9FF6}
 		{1EF66109-D0F7-4F1E-A093-7BF2B8A6B926} = {5C98DF23-BAA7-46F5-B5A0-78697DBF9FF6}
+		{7C4B1148-A1A1-4AF7-9F62-AC353800EB94} = {5C98DF23-BAA7-46F5-B5A0-78697DBF9FF6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45049A7A-0E05-45A6-9D16-5A4160A48F80}
