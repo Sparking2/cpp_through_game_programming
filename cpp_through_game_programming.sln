@@ -85,6 +85,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Excercises", "Excercises", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter_5", "chapter_5\chapter_5.vcxproj", "{0D14019F-2B85-435D-9FC8-D4E048FF1B36}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 6", "Chapter 6", "{6AFA2807-CEB7-4CAA-8198-FCB0D2DDD494}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "referencing", "referencing\referencing.vcxproj", "{AD1BEF6E-5F27-4518-938F-D82F8CDF6826}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -405,6 +409,14 @@ Global
 		{0D14019F-2B85-435D-9FC8-D4E048FF1B36}.Release|x64.Build.0 = Release|x64
 		{0D14019F-2B85-435D-9FC8-D4E048FF1B36}.Release|x86.ActiveCfg = Release|Win32
 		{0D14019F-2B85-435D-9FC8-D4E048FF1B36}.Release|x86.Build.0 = Release|Win32
+		{AD1BEF6E-5F27-4518-938F-D82F8CDF6826}.Debug|x64.ActiveCfg = Debug|x64
+		{AD1BEF6E-5F27-4518-938F-D82F8CDF6826}.Debug|x64.Build.0 = Debug|x64
+		{AD1BEF6E-5F27-4518-938F-D82F8CDF6826}.Debug|x86.ActiveCfg = Debug|Win32
+		{AD1BEF6E-5F27-4518-938F-D82F8CDF6826}.Debug|x86.Build.0 = Debug|Win32
+		{AD1BEF6E-5F27-4518-938F-D82F8CDF6826}.Release|x64.ActiveCfg = Release|x64
+		{AD1BEF6E-5F27-4518-938F-D82F8CDF6826}.Release|x64.Build.0 = Release|x64
+		{AD1BEF6E-5F27-4518-938F-D82F8CDF6826}.Release|x86.ActiveCfg = Release|Win32
+		{AD1BEF6E-5F27-4518-938F-D82F8CDF6826}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -417,6 +429,7 @@ Global
 		{E6B052D3-FB24-4B27-94F2-1056B4295058} = {5C98DF23-BAA7-46F5-B5A0-78697DBF9FF6}
 		{73DC5EFA-AA79-4A8B-893F-AD0DFF9805C1} = {5C98DF23-BAA7-46F5-B5A0-78697DBF9FF6}
 		{0D14019F-2B85-435D-9FC8-D4E048FF1B36} = {64075333-D972-4856-BF14-9995C10C64A1}
+		{AD1BEF6E-5F27-4518-938F-D82F8CDF6826} = {6AFA2807-CEB7-4CAA-8198-FCB0D2DDD494}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45049A7A-0E05-45A6-9D16-5A4160A48F80}
