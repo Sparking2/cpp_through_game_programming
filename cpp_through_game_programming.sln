@@ -99,6 +99,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tic-tac-toe", "tic-tac-toe\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter_6", "chapter_6\chapter_6.vcxproj", "{93D898E6-EDFC-41E6-B9FF-A04A1271C6D9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 7", "Chapter 7", "{274E11D9-8A7C-44AD-A604-9DDD1AC31F08}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pointing", "pointing\pointing.vcxproj", "{8C1BD856-6D23-4FB0-B79D-D794E396D09C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -467,6 +471,14 @@ Global
 		{93D898E6-EDFC-41E6-B9FF-A04A1271C6D9}.Release|x64.Build.0 = Release|x64
 		{93D898E6-EDFC-41E6-B9FF-A04A1271C6D9}.Release|x86.ActiveCfg = Release|Win32
 		{93D898E6-EDFC-41E6-B9FF-A04A1271C6D9}.Release|x86.Build.0 = Release|Win32
+		{8C1BD856-6D23-4FB0-B79D-D794E396D09C}.Debug|x64.ActiveCfg = Debug|x64
+		{8C1BD856-6D23-4FB0-B79D-D794E396D09C}.Debug|x64.Build.0 = Debug|x64
+		{8C1BD856-6D23-4FB0-B79D-D794E396D09C}.Debug|x86.ActiveCfg = Debug|Win32
+		{8C1BD856-6D23-4FB0-B79D-D794E396D09C}.Debug|x86.Build.0 = Debug|Win32
+		{8C1BD856-6D23-4FB0-B79D-D794E396D09C}.Release|x64.ActiveCfg = Release|x64
+		{8C1BD856-6D23-4FB0-B79D-D794E396D09C}.Release|x64.Build.0 = Release|x64
+		{8C1BD856-6D23-4FB0-B79D-D794E396D09C}.Release|x86.ActiveCfg = Release|Win32
+		{8C1BD856-6D23-4FB0-B79D-D794E396D09C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -485,6 +497,7 @@ Global
 		{C0997B17-88F6-4D96-99A7-A740F9E5F8E2} = {6AFA2807-CEB7-4CAA-8198-FCB0D2DDD494}
 		{E712D29F-83AA-4B1A-8228-3425BEBEFD23} = {6AFA2807-CEB7-4CAA-8198-FCB0D2DDD494}
 		{93D898E6-EDFC-41E6-B9FF-A04A1271C6D9} = {64075333-D972-4856-BF14-9995C10C64A1}
+		{8C1BD856-6D23-4FB0-B79D-D794E396D09C} = {274E11D9-8A7C-44AD-A604-9DDD1AC31F08}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45049A7A-0E05-45A6-9D16-5A4160A48F80}
