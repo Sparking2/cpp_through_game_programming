@@ -133,6 +133,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "critter_fram", "critter_fra
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "friend_critter", "friend_critter\friend_critter.vcxproj", "{7BB43B13-233C-4149-9F21-8BA2E52D1DA6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "heap", "heap\heap.vcxproj", "{6DB7F8D9-9314-4559-B52A-CFA88EBFDD09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -613,6 +615,14 @@ Global
 		{7BB43B13-233C-4149-9F21-8BA2E52D1DA6}.Release|x64.Build.0 = Release|x64
 		{7BB43B13-233C-4149-9F21-8BA2E52D1DA6}.Release|x86.ActiveCfg = Release|Win32
 		{7BB43B13-233C-4149-9F21-8BA2E52D1DA6}.Release|x86.Build.0 = Release|Win32
+		{6DB7F8D9-9314-4559-B52A-CFA88EBFDD09}.Debug|x64.ActiveCfg = Debug|x64
+		{6DB7F8D9-9314-4559-B52A-CFA88EBFDD09}.Debug|x64.Build.0 = Debug|x64
+		{6DB7F8D9-9314-4559-B52A-CFA88EBFDD09}.Debug|x86.ActiveCfg = Debug|Win32
+		{6DB7F8D9-9314-4559-B52A-CFA88EBFDD09}.Debug|x86.Build.0 = Debug|Win32
+		{6DB7F8D9-9314-4559-B52A-CFA88EBFDD09}.Release|x64.ActiveCfg = Release|x64
+		{6DB7F8D9-9314-4559-B52A-CFA88EBFDD09}.Release|x64.Build.0 = Release|x64
+		{6DB7F8D9-9314-4559-B52A-CFA88EBFDD09}.Release|x86.ActiveCfg = Release|Win32
+		{6DB7F8D9-9314-4559-B52A-CFA88EBFDD09}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -645,6 +655,7 @@ Global
 		{8AB70615-56A4-4E50-B5DD-5E9FDEF30284} = {64075333-D972-4856-BF14-9995C10C64A1}
 		{5CF8D177-4652-410B-BF2E-10A45E2A1B0C} = {A10AED36-A165-4990-9CE4-BB902783840B}
 		{7BB43B13-233C-4149-9F21-8BA2E52D1DA6} = {A10AED36-A165-4990-9CE4-BB902783840B}
+		{6DB7F8D9-9314-4559-B52A-CFA88EBFDD09} = {A10AED36-A165-4990-9CE4-BB902783840B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45049A7A-0E05-45A6-9D16-5A4160A48F80}
