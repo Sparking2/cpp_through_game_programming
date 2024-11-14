@@ -147,6 +147,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple_boss", "simple_boss\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple_boss2", "simple_boss2\simple_boss2.vcxproj", "{60D0D56D-B2BD-4B2B-A21C-6CFD0A269EED}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "overriding_boss", "overriding_boss\overriding_boss.vcxproj", "{04B2A51E-9F96-4F67-9335-54EF4465A806}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -675,6 +677,14 @@ Global
 		{60D0D56D-B2BD-4B2B-A21C-6CFD0A269EED}.Release|x64.Build.0 = Release|x64
 		{60D0D56D-B2BD-4B2B-A21C-6CFD0A269EED}.Release|x86.ActiveCfg = Release|Win32
 		{60D0D56D-B2BD-4B2B-A21C-6CFD0A269EED}.Release|x86.Build.0 = Release|Win32
+		{04B2A51E-9F96-4F67-9335-54EF4465A806}.Debug|x64.ActiveCfg = Debug|x64
+		{04B2A51E-9F96-4F67-9335-54EF4465A806}.Debug|x64.Build.0 = Debug|x64
+		{04B2A51E-9F96-4F67-9335-54EF4465A806}.Debug|x86.ActiveCfg = Debug|Win32
+		{04B2A51E-9F96-4F67-9335-54EF4465A806}.Debug|x86.Build.0 = Debug|Win32
+		{04B2A51E-9F96-4F67-9335-54EF4465A806}.Release|x64.ActiveCfg = Release|x64
+		{04B2A51E-9F96-4F67-9335-54EF4465A806}.Release|x64.Build.0 = Release|x64
+		{04B2A51E-9F96-4F67-9335-54EF4465A806}.Release|x86.ActiveCfg = Release|Win32
+		{04B2A51E-9F96-4F67-9335-54EF4465A806}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -713,6 +723,7 @@ Global
 		{2FA3A7AE-B82E-45F7-9A11-3FB6C6546328} = {64075333-D972-4856-BF14-9995C10C64A1}
 		{EC9F37FB-F6F3-4872-958F-9D0EF83BD4CD} = {6803344C-FA95-4CEF-8582-4082486969F2}
 		{60D0D56D-B2BD-4B2B-A21C-6CFD0A269EED} = {6803344C-FA95-4CEF-8582-4082486969F2}
+		{04B2A51E-9F96-4F67-9335-54EF4465A806} = {6803344C-FA95-4CEF-8582-4082486969F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45049A7A-0E05-45A6-9D16-5A4160A48F80}
