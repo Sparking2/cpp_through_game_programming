@@ -1,4 +1,4 @@
-// 1.	Improve the Lobby class from the Game Lobby program by writing a friend function
+//1.	Improve the Lobby class from the Game Lobby program by writing a friend function
 //		of the Player class that allows a Player object to be sent to cout. Next, update the
 //		function that allows a Lobby object to be sent to cout so that it uses your new function
 //		for sending a Player object to cout.
@@ -15,20 +15,23 @@ using namespace std;
 class Player
 {
 	friend ostream& operator<<(ostream& os, const Player& aPlayer);
+
 public:
 	Player(const string& name = "");
 	string GetName() const;
 	Player* GetNext() const;
 	void SetNext(Player* next);
+
 private:
 	string m_Name;
-	Player* m_pNext;	//Pointer to next player in list
+	Player* m_pNext; //Pointer to next player in list
 };
 
 Player::Player(const string& name) :
 	m_Name(name),
-	m_pNext(0)
-{}
+	m_pNext(nullptr)
+{
+}
 
 ostream& operator<<(ostream& os, const Player& aPlayer)
 {
@@ -40,10 +43,12 @@ string Player::GetName() const
 {
 	return m_Name;
 }
+
 Player* Player::GetNext() const
 {
 	return m_pNext;
 }
+
 void Player::SetNext(Player* next)
 {
 	m_pNext = next;
@@ -52,20 +57,24 @@ void Player::SetNext(Player* next)
 class Lobby
 {
 	friend ostream& operator<<(ostream& os, const Lobby& aLobby);
+
 public:
 	Lobby();
 	~Lobby();
 	void AddPlayer();
 	void RemovePlayer();
 	void Clear();
+
 private:
 	Player* m_pHead;
 	Player* m_pTail;
 };
 
 Lobby::Lobby() :
-	m_pHead(0)
-{}
+	m_pHead(nullptr)
+{
+}
+
 Lobby::~Lobby()
 {
 	Clear();
@@ -77,10 +86,10 @@ void Lobby::AddPlayer()
 	cout << "Please enter the name of the new player: ";
 	string name;
 	cin >> name;
-	Player* pNewPlayer = new Player(name);
+	auto pNewPlayer = new Player(name);
 
 	//if list is empty, make head of list this new player
-	if (m_pHead == 0)
+	if (m_pHead == nullptr)
 	{
 		m_pHead = pNewPlayer;
 		m_pTail = pNewPlayer;
@@ -95,7 +104,7 @@ void Lobby::AddPlayer()
 
 void Lobby::RemovePlayer()
 {
-	if (m_pHead == 0)
+	if (m_pHead == nullptr)
 	{
 		cout << "The game lobby is empty. No one to remove!\n";
 	}
@@ -109,7 +118,7 @@ void Lobby::RemovePlayer()
 
 void Lobby::Clear()
 {
-	while (m_pHead != 0)
+	while (m_pHead != nullptr)
 	{
 		RemovePlayer();
 	}
@@ -119,13 +128,13 @@ ostream& operator<<(ostream& os, const Lobby& aLobby)
 {
 	Player* pIter = aLobby.m_pHead;
 	os << "\nHere's who's in the game lobby:\n";
-	if (pIter == 0)
+	if (pIter == nullptr)
 	{
 		os << "The lobby is empty.\n";
 	}
 	else
 	{
-		while (pIter != 0)
+		while (pIter != nullptr)
 		{
 			os << *pIter;
 			pIter = pIter->GetNext();
@@ -150,12 +159,33 @@ int main()
 		cin >> choice;
 		switch (choice)
 		{
-		case 0: cout << "Good-bye.\n"; break;
-		case 1: myLobby.AddPlayer(); break;
-		case 2: myLobby.RemovePlayer(); break;
-		case 3: myLobby.Clear(); break;
+		case 0: cout << "Good-bye.\n";
+			break;
+		case 1: myLobby.AddPlayer();
+			break;
+		case 2: myLobby.RemovePlayer();
+			break;
+		case 3: myLobby.Clear();
+			break;
 		default: cout << "That was not a valid choice.\n";
 		}
-	} while (choice != 0);
+	}
+	while (choice != 0);
 	return 0;
 }
+
+
+//3.	What's wrong with the following code?
+//		R= there is a piece of memory that is not being cleaned? like it stays forever
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+// 	int* pScore = new int;
+// 	*pScore = 500;
+// 	pScore = new int(1000);
+// 	delete pScore;
+// 	pScore = 0;
+//
+// 	return 0;
+// }
