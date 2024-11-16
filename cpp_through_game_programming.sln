@@ -151,6 +151,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "overriding_boss", "overridi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "polymorphic_bad_guy", "polymorphic_bad_guy\polymorphic_bad_guy.vcxproj", "{5DAE0E83-522E-479D-8B5B-76F47BF7D91D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "abstract_creature", "abstract_creature\abstract_creature.vcxproj", "{96D9C0A6-5C2B-48D7-BC5E-7732DDE10621}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -695,6 +697,14 @@ Global
 		{5DAE0E83-522E-479D-8B5B-76F47BF7D91D}.Release|x64.Build.0 = Release|x64
 		{5DAE0E83-522E-479D-8B5B-76F47BF7D91D}.Release|x86.ActiveCfg = Release|Win32
 		{5DAE0E83-522E-479D-8B5B-76F47BF7D91D}.Release|x86.Build.0 = Release|Win32
+		{96D9C0A6-5C2B-48D7-BC5E-7732DDE10621}.Debug|x64.ActiveCfg = Debug|x64
+		{96D9C0A6-5C2B-48D7-BC5E-7732DDE10621}.Debug|x64.Build.0 = Debug|x64
+		{96D9C0A6-5C2B-48D7-BC5E-7732DDE10621}.Debug|x86.ActiveCfg = Debug|Win32
+		{96D9C0A6-5C2B-48D7-BC5E-7732DDE10621}.Debug|x86.Build.0 = Debug|Win32
+		{96D9C0A6-5C2B-48D7-BC5E-7732DDE10621}.Release|x64.ActiveCfg = Release|x64
+		{96D9C0A6-5C2B-48D7-BC5E-7732DDE10621}.Release|x64.Build.0 = Release|x64
+		{96D9C0A6-5C2B-48D7-BC5E-7732DDE10621}.Release|x86.ActiveCfg = Release|Win32
+		{96D9C0A6-5C2B-48D7-BC5E-7732DDE10621}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -735,6 +745,7 @@ Global
 		{60D0D56D-B2BD-4B2B-A21C-6CFD0A269EED} = {6803344C-FA95-4CEF-8582-4082486969F2}
 		{04B2A51E-9F96-4F67-9335-54EF4465A806} = {6803344C-FA95-4CEF-8582-4082486969F2}
 		{5DAE0E83-522E-479D-8B5B-76F47BF7D91D} = {6803344C-FA95-4CEF-8582-4082486969F2}
+		{96D9C0A6-5C2B-48D7-BC5E-7732DDE10621} = {6803344C-FA95-4CEF-8582-4082486969F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45049A7A-0E05-45A6-9D16-5A4160A48F80}
