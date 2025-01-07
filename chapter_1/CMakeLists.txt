@@ -1,0 +1,8 @@
+add_subdirectory(game_over)
+add_subdirectory(game_over_2_0)
+add_subdirectory(game_over_3_0)
+add_subdirectory(expensive_calculator)
+add_subdirectory(game_stats)
+add_subdirectory(game_stats_2_0)
+add_subdirectory(game_stats_3_0)
+add_subdirectory(lost_fortune)

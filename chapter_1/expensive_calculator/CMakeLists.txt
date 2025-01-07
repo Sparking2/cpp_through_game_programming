@@ -1,0 +1,2 @@
+add_executable(expensive_calculator expensive_calculator.cpp)
+install(TARGETS expensive_calculator RUNTIME DESTINATION bin)
