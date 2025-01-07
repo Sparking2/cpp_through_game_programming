@@ -486,8 +486,8 @@ int main()
 // overloads << operator so Card object can be sent to cout
 ostream& operator<<(ostream& os, const Card& aCard)
 {
-	const string RANKS[] = { "0", "A", "2","3","4","5","6","7","8","9","10","J","Q","K" };
-	const string SUITS[] = { "c","d","h","s" };
+	const string RANKS[] = {"0", "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"};
+	const string SUITS[] = {"c", "d", "h", "s"};
 	if (aCard.m_isFaceUp)
 	{
 		os << RANKS[aCard.m_Rank] << SUITS[aCard.m_Suit];
@@ -507,8 +507,8 @@ ostream& operator<<(ostream& os, const GenericPlayer& aGenericPlayer)
 	if (!aGenericPlayer.m_Cards.empty())
 	{
 		for (pCard = aGenericPlayer.m_Cards.begin();
-			pCard != aGenericPlayer.m_Cards.end();
-			++pCard)
+		     pCard != aGenericPlayer.m_Cards.end();
+		     ++pCard)
 		{
 			os << *(*pCard) << "\t";
 		}
