@@ -1,0 +1,2 @@
+add_executable(inventory_referencer inventory_referencer.cpp)
+install(TARGETS inventory_referencer RUNTIME DESTINATION bin)

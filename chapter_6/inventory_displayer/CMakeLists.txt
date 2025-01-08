@@ -1,0 +1,2 @@
+add_executable(inventory_displayer inventory_displayer.cpp)
+install(TARGETS inventory_displayer RUNTIME DESTINATION bin)

@@ -1,0 +1,6 @@
+add_subdirectory(_exercises)
+add_subdirectory(inventory_displayer)
+add_subdirectory(inventory_referencer)
+add_subdirectory(referencing)
+add_subdirectory(swap)
+add_subdirectory(tic-tac-toe)
