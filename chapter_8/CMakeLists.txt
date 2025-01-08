@@ -1,0 +1,6 @@
+add_subdirectory(_exercises)
+add_subdirectory(constructor_critter)
+add_subdirectory(critter_caretaker)
+add_subdirectory(private_critter)
+add_subdirectory(simple_critter)
+add_subdirectory(static_critter)

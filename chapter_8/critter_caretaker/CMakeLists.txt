@@ -1,0 +1,2 @@
+add_executable(critter_caretaker critter_caretaker.cpp)
+install(TARGETS critter_caretaker RUNTIME DESTINATION bin)

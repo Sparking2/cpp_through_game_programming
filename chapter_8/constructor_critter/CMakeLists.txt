@@ -1,0 +1,2 @@
+add_executable(constructor_critter constructor_critter.cpp)
+install(TARGETS constructor_critter RUNTIME DESTINATION bin)
