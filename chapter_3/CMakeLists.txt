@@ -1,0 +1,6 @@
+add_subdirectory(_exercises)
+add_subdirectory(counter)
+add_subdirectory(heros_inventory)
+add_subdirectory(string_tester)
+add_subdirectory(tic-tac-toe_board)
+add_subdirectory(word_jumble)
