@@ -8,6 +8,5 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}/runtime")
 option(BUILD_SHARED_LIBS "Build using shared libraries" ON)
 
 add_subdirectory(hello_world)
-add_subdirectory(
-    chapter_1
-)
+add_subdirectory(chapter_1)
+add_subdirectory(chapter_2)

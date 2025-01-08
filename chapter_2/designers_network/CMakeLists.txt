@@ -1,0 +1,2 @@
+add_executable(designers_network designers_network.cpp)
+install(TARGETS designers_network RUNTIME DESTINATION bin)

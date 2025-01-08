@@ -1,3 +1,5 @@
+// Exercises Chapter 2
+
 // 1. Rewrite the Menu Chooser program using an enumeration to represent difficulty levels. The variable choice will still be of type int.
 
 #include <iostream>
