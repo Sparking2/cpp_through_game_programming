@@ -1,0 +1,6 @@
+add_subdirectory(_exercises)
+add_subdirectory(array_passer)
+add_subdirectory(inventory_pointer)
+add_subdirectory(pointing)
+add_subdirectory(swap_pointer_ver)
+add_subdirectory(tic-tac-toe2)

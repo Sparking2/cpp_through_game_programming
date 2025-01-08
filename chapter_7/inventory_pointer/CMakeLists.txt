@@ -1,0 +1,2 @@
+add_executable(inventory_pointer inventory_pointer.cpp)
+install(TARGETS inventory_pointer RUNTIME DESTINATION bin)
