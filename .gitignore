@@ -403,3 +403,5 @@ FodyWeavers.xsd
 .idea/
 
 [Oo]ut/
+
+cmake-build-debug/
