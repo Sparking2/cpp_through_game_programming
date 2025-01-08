@@ -1,0 +1,6 @@
+add_subdirectory(_exercises)
+add_subdirectory(critter_farm)
+add_subdirectory(friend_critter)
+add_subdirectory(game_lobby)
+add_subdirectory(heap)
+add_subdirectory(heap_data_member)
