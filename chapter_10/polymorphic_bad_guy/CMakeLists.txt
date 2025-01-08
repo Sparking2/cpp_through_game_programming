@@ -1,0 +1,2 @@
+add_executable(polymorphic_bad_guy polymorphic_bad_guy.cpp)
+install(TARGETS polymorphic_bad_guy RUNTIME DESTINATION bin)

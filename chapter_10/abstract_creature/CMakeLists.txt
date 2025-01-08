@@ -1,0 +1,2 @@
+add_executable(abstract_creature abstract_creature.cpp)
+install(TARGETS abstract_creature RUNTIME DESTINATION bin)
