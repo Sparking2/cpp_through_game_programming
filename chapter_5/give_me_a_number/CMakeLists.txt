@@ -1,0 +1,2 @@
+add_executable(give_me_a_number give_me_a_number.cpp)
+install(TARGETS give_me_a_number RUNTIME DESTINATION bin)
