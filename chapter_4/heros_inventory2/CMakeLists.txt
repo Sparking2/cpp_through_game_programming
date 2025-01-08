@@ -1,0 +1,2 @@
+add_executable(heros_inventory2 heros_inventory2.cpp)
+install(TARGETS heros_inventory2 RUNTIME DESTINATION bin)

@@ -1,0 +1,5 @@
+add_subdirectory(_exercises)
+add_subdirectory(hangman)
+add_subdirectory(heros_inventory2)
+add_subdirectory(heros_inventory3)
+add_subdirectory(high_scores)

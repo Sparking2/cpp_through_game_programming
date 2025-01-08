@@ -1,0 +1,2 @@
+add_executable(exercises_chapter_4 exercises_chapter_4.cpp)
+install(TARGETS exercises_chapter_4 RUNTIME DESTINATION bin)

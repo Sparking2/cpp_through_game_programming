@@ -79,12 +79,13 @@ int main()
 		cout << "Character at position " << i << " is: " << phrase[i] << "\n";
 	}
 
-	// 3. What's wrong with the following code? R: The rows and columns in the initialization are inverted...
-	const int ROWS = 2;
-	const int COLUMNS = 3;
-	char board[COLUMNS][ROWS] = { {'0', 'X', '0'}, {' ', 'X','X'} };
+	// 3. What's wrong with the following code? 
+	// const int ROWS = 2;
+	// const int COLUMNS = 3;
+	// char board[COLUMNS][ROWS] = { {'0', 'X', '0'}, {' ', 'X','X'} };
+	//
+	// R: The rows and columns in the initialization are inverted...
 
 
 	return 0;
-
 }
